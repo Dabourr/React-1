@@ -83,9 +83,18 @@ createRoot(document.getElementById("root")).render(
     </section>
     <section className="w-full bg-[#FFFFFF] ">
       <div className="w-304 h-177.5 gap-80px flex items-center px-88 py-32">
-        <div>
-          <img src="/public/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field.svg" className="w-142 h-177.5 object-cover" />
+        <div className="relative">
+          <img
+            src="/public/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field.svg"
+            className="w-142 h-177.5 object-cover"
+          />
+          <div className="absolute -bottom-5 -right-5 bg-[#222222] rounded-3xl p-8 flex flex-col gap-1">
+            <p className="text-white text-[32px] font-bold">15+</p>
+
+            <p className="text-[#9CA3AF] text-[12px]">YEARS OF EXCELLENCE</p>
+          </div>
         </div>
+        
       </div>
     </section>
   </>,
