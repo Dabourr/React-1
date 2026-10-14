@@ -81,20 +81,91 @@ createRoot(document.getElementById("root")).render(
         </div>
       </div>
     </section>
-    <section className="w-full bg-[#FFFFFF] ">
-      <div className="w-304 h-177.5 gap-80px flex items-center px-88 py-32">
-        <div className="relative">
+    <section className="w-full bg-[#FFFFFF] py-[128px]">
+      <div className="mx-auto flex w-full max-w-[1216px] items-center gap-[80px]">
+        {/* Left Side */}
+        <div className="relative h-[710px] w-[568px] shrink-0">
           <img
             src="/public/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field.svg"
-            className="w-142 h-177.5 object-cover"
+            className="h-full w-full rounded-[24px] object-cover"
           />
-          <div className="absolute -bottom-5 -right-5 bg-[#222222] rounded-3xl p-8 flex flex-col gap-1">
-            <p className="text-white text-[32px] font-bold">15+</p>
 
-            <p className="text-[#9CA3AF] text-[12px]">YEARS OF EXCELLENCE</p>
+          <div className="absolute bottom-[-20px] right-[-20px] flex flex-col gap-[4px] rounded-[24px] bg-[#222222] p-[32px]">
+            <p className="font-poppins text-[32px] font-bold text-white">15+</p>
+
+            <p className="font-poppins text-[12px] text-[#9CA3AF]">
+              YEARS OF EXCELLENCE
+            </p>
           </div>
         </div>
-        
+
+        {/* Right Side */}
+        <div className="flex w-[568px] flex-col gap-[24px]">
+          <h2 className="w-[568px] font-poppins text-[48px] font-bold leading-[60px] text-[#222222]">
+            Crafting stories on every plate since{" "}
+            <span className="text-[#FF6B35]">2008.</span>
+          </h2>
+
+          <p className="w-[568px] font-poppins text-[18px] font-normal leading-[29.25px] text-[#6B7280]">
+            Gourmet Bistro was born from a simple vision: to create a space
+            where culinary excellence meets genuine hospitality. Our journey
+            began in a small kitchen with big dreams, focusing on the purity of
+            ingredients and the joy of shared meals.
+          </p>
+
+          <p className="w-[568px] font-poppins text-[18px] font-normal leading-[29.25px] text-[#6B7280]">
+            Today, we continue that legacy, blending traditional techniques with
+            modern innovation to bring you a menu that celebrates the best of
+            the season.
+          </p>
+
+          {/* Features */}
+          <div className="flex w-full items-center justify-between">
+            {/* Fresh Harvest */}
+            <div className="flex items-center gap-[12px]">
+              <div className="flex h-[40px] w-[40px] items-center justify-center rounded-[8px] bg-[#FF6B35]/10">
+                <img
+                  src="/public/fresh.svg"
+                  alt="Fresh Harvest"
+                  className="h-[20px] w-[20px]"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <p className="font-poppins text-[16px] font-bold leading-[24px] text-[#222222]">
+                  Fresh Harvest
+                </p>
+
+                <p className="font-poppins text-[12px] font-normal leading-[16px] text-[#6B7280]">
+                  Daily sourced organic
+                  <br />
+                  ingredients.
+                </p>
+              </div>
+            </div>
+
+            {/* Expert Chefs */}
+            <div className="flex items-center gap-[12px]">
+              <div className="flex h-[40px] w-[40px] items-center justify-center rounded-[8px] bg-[#FF6B35]/10">
+                <img
+                  src="/public/expert.svg"
+                  alt="Expert Chefs"
+                  className="h-[20px] w-[20px]"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <p className="font-poppins text-[16px] font-bold leading-[24px] text-[#222222]">
+                  Expert Chefs
+                </p>
+
+                <p className="font-poppins text-[12px] font-normal leading-[16px] text-[#6B7280]">
+                  Award-winning culinary team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </>,
