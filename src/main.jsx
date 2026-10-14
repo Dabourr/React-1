@@ -69,7 +69,7 @@ createRoot(document.getElementById("root")).render(
             </div>
             <p className="text-white text-[16px] leading-6 font-poppins">
               <span className="font-bold">4.9-5 </span>
-              <span className="font-normal">from over 2,000+ happy diners</span>
+              <span className="font-normal"> from over 2,000+ happy diners</span>
             </p>
           </div>
         </div>
@@ -91,8 +91,8 @@ createRoot(document.getElementById("root")).render(
         </div>
         <div className="flex w-[568px] flex-col gap-[24px]">
           <h2 className="w-[568px] font-poppins text-[48px] font-bold leading-[60px] text-[#222222]">
-            Crafting stories on every plate since 
-            <span className="text-[#FF6B35]">2008.</span>
+            Crafting stories on every plate since
+            <span className="text-[#FF6B35]"> 2008.</span>
           </h2>
           <p className="w-[568px] font-poppins text-[18px] font-normal leading-[29.25px] text-[#6B7280]">
             Gourmet Bistro was born from a simple vision: to create a space
