@@ -8,7 +8,7 @@ createRoot(document.getElementById("root")).render(
     <header className="w-full bg-[#F8F9FACC] h-[81px] pl-[32px] pr-[32px]">
       <nav className="h-full flex justify-between items-center px-8">
         <div className="flex gap-2 items-center">
-          <img src="/public/nav.svg" className="pt-5" />
+          <img src="nav.svg" className="pt-5" />
           <span className="text-[20px] font-bold text-[#222222] font-poppins">
             Gourmet Bistro
           </span>
@@ -25,7 +25,7 @@ createRoot(document.getElementById("root")).render(
       </nav>
     </header>
     <section className="relative w-full h-[921.5900268554688px]">
-      <img src="/public/Main.svg" className="w-full h-full object-cover" />
+      <img src="Main.svg" className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-full max-w-172.5 flex flex-col items-start gap-6">
           <div className="bg-[#FF6B351A] rounded-full py-1.5 px-4 w-fit">
@@ -44,26 +44,26 @@ createRoot(document.getElementById("root")).render(
           </p>
           <div className="flex items-center gap-4">
             <button className="flex h-15 items-center gap-2 rounded-2xl bg-[#FF6B35] px-8 py-4">
-              <img src="/public/menu.svg" />
+              <img src="menu.svg" />
               <span>View Menu</span>
             </button>
             <button className="flex h-15.5 items-center gap-2 rounded-2xl border border-white/20 bg-white/10 px-8 py-4 backdrop-blur-md text-white">
-              <img src="/public/book.svg" />
+              <img src="book.svg" />
               <span>Book a Table</span>
             </button>
           </div>
           <div className="flex items-center gap-3">
             <div className="flex items-center">
               <img
-                src="/public/1.png"
+                src="1.png"
                 className="w-10 h-10 rounded-full border-2 border-[#222222] object-cover"
               />
               <img
-                src="/public/2.png"
+                src="2.png"
                 className="-ml-2.5 w-10 h-10 rounded-full border-2 border-[#222222] object-cover"
               />
               <img
-                src="/public/3.png"
+                src="3.png"
                 className="-ml-2.5 w-10 h-10 rounded-full border-2 border-[#222222] object-cover"
               />
             </div>
@@ -79,7 +79,7 @@ createRoot(document.getElementById("root")).render(
       <div className="mx-auto flex w-full max-w-[1216px] items-center gap-[80px]">
         <div className="relative h-[710px] w-[568px] shrink-0">
           <img
-            src="/public/Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field.svg"
+            src="Professional chef carefully garnishing a gourmet plate in a high-end kitchen, close-up, shallow depth of field.svg"
             className="h-full w-full rounded-[24px] object-cover"
           />
           <div className="absolute bottom-[-20px] right-[-20px] flex flex-col gap-[4px] rounded-[24px] bg-[#222222] p-[32px]">
@@ -109,7 +109,7 @@ createRoot(document.getElementById("root")).render(
             <div className="flex items-center gap-[12px]">
               <div className="flex h-[40px] w-[40px] items-center justify-center rounded-[8px] bg-[#FF6B35]/10">
                 <img
-                  src="/public/fresh.svg"
+                  src="fresh.svg"
                   alt="Fresh Harvest"
                   className="h-[20px] w-[20px]"
                 />
@@ -128,7 +128,7 @@ createRoot(document.getElementById("root")).render(
             <div className="flex items-center gap-[12px]">
               <div className="flex h-[40px] w-[40px] items-center justify-center rounded-[8px] bg-[#FF6B35]/10">
                 <img
-                  src="/public/expert.svg"
+                  src="expert.svg"
                   alt="Expert Chefs"
                   className="h-[20px] w-[20px]"
                 />
